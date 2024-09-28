@@ -1,0 +1,19 @@
+./ScalSALE/src/Material/Equation_of_state/ideal_gas.f90:60:      !$omp parallel do private(i, j, k)
+./ScalSALE/src/Time_step/hydro_step.f90:528:        !$omp parallel do collapse(3) private(i, j, k, tmp_mat)
+./ScalSALE/src/Time_step/hydro_step.f90:564:        !$omp parallel do private(i, j, k, tmp_mat)
+./ScalSALE/src/Time_step/hydro_step.f90:586:        !$omp parallel do private(i, j, k)
+./ScalSALE/src/Time_step/hydro_step.f90:604:        !$omp parallel do private(i, j, k)
+./ScalSALE/src/Time_step/hydro_step.f90:682:        !$omp parallel do private(i, j, k)
+./ScalSALE/src/Time_step/hydro_step.f90:692:        !$omp parallel do private(i, j, k)
+./ScalSALE/src/Time_step/hydro_step.f90:831:        !$omp parallel do &
+./ScalSALE/src/Time_step/hydro_step.f90:1190:        !$omp parallel do &
+./ScalSALE/src/Time_step/hydro_step.f90:1836:        !$omp parallel do &
+./ScalSALE/src/Time_step/time.f90:323:      !$omp parallel do &
+./ScalSALE/src/Time_step/time.f90:539:      !$omp parallel do private(i, j, k , & 
+./ScalSALE/src/Rezone_and_Advect/rezone.f90:253:      !$omp parallel do private(i, j, k)
+./ScalSALE/src/Rezone_and_Advect/rezone.f90:273:      !$omp parallel do private(i, j, k)
+./ScalSALE/src/Rezone_and_Advect/rezone.f90:295:            !$omp parallel do private(i, j, k)
+./ScalSALE/src/Rezone_and_Advect/rezone.f90:309:            !$omp parallel do private(i ,j, k)   
+./ScalSALE/src/Quantities/Cell/volume.f90:124:         !$omp parallel do collapse(3) & 
+./ScalSALE/src/Quantities/Vertex/vertex_mass.f90:192:         !$omp parallel do collapse(3) & 
+./ScalSALE/src/Quantities/Vertex/velocity.f90:230:        !$omp parallel do &
